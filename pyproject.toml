@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wbx-similar-presets"
+version = "0.1.0"
+description = "Service for finding similar presets by sending requests with products IDs to NM-holder"
+authors = ["CaptainBloodborne <vrail30@gmail.com>"]
+readme = "README.md"
+packages = [{include = "wbx_similar_presets"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.4"
+uvicorn = "^0.21.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
